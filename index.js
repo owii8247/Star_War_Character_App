@@ -1,4 +1,4 @@
-
+let id;
 let search_div = document.getElementById("character")
 
 async function search(q){
@@ -49,4 +49,13 @@ async function main() {
 
     appendCharacter(data)
 
+}
+
+function debounce(func,delay){
+    if(id){
+        clearTimeout(id)
+    }
+    id = setTimeout(function(){
+        func()
+    },delay)
 }
