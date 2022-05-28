@@ -1,0 +1,20 @@
+img{
+    height: 60px;
+    width: 60px;
+}
+input{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+#character{
+    width: 540px;
+    height: 300px;
+    border: 1px solid;
+    border-top: none;
+    overflow: scroll;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
